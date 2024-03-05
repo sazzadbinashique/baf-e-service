@@ -42,7 +42,6 @@
 <body data-plugin-page-transition>
     <div class="body">
         @include('frontend.includes.header')
-
         <div role="main" class="main">
             @yield('content')
         </div>
@@ -67,10 +66,13 @@
 
             if (scroll >= 120) {
                 $("#main-nav").addClass("fixed-nav");
+                console.log('scrolling')
             } else {
                 $("#main-nav").removeClass("fixed-nav");
+                console.log('not scrolling')
             }
         });
+
     });
 
 </script>

@@ -226,24 +226,44 @@
         font-size: 11px;
     }
 }
-.navbar{
-    background-color:#000;
+.bg-toggler{
+    background-color: #fff;
+}
+.navbar  {
+    min-height: 50px !important;
+}
+.navbar li a:hover{
+    background-color: #e3d9d9;
 }
 #main-nav.fixed-nav {
     position: fixed;
-    top: 120px;
+    top: 0px;
     width: 100%;
     z-index: 9999;
 }
 #main-nav .navbar-nav .nav-link {
-    font-size: 0.9rem;
+    text-transform: capitalize;
+    font-size: 14px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-#main-nav .navbar-nav .nav-link:hover {
-    color: #ff7f0f;
+#main-nav .navbar-collapse li a {
+    font-weight: bold;
 }
+.navbar-nav > li > a:hover, .navbar-nav > li:hover > a, .navbar-nav > li > a:focus{
+    background-color: #d9cfcf !important;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    width: 100%;
+    border-bottom: 2px solid #ff7f0f;
+    transition: all 0.3s;
+    border-radius: 2px;
+}
+
 .navbar-nav .nav-item {
     margin: 5px; /* Adjust margin between menu items */
 }
@@ -265,4 +285,42 @@
         color: #fff;
         font-weight: 400;
     }
+}
+
+
+/* Custom CSS for 3D effect */
+.card {
+    transition: all 0.3s ease;
+    transform-style: preserve-3d;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.card:hover {
+    transform: rotateY(10deg) rotateX(10deg);
+}
+.bg-3d {
+    background: linear-gradient(45deg, #dfeaef 50%, #b3e0e9 50%);
+    background-size: 400% 400%;
+    animation: gradient-animation 4s infinite alternate;
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Custom CSS for list item hover effect */
+.list-unstyled li {
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.list-unstyled li:hover {
+    color: #ff7f0f; /* Change to the specified color on hover */
+    font-size: 1.1rem; /* Increase the font size on hover */
+}
+
+html.sticky-header-active #header .header-body{
+    position: inherit !important;
 }

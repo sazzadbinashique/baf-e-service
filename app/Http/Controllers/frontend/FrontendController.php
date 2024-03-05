@@ -38,4 +38,8 @@ class FrontendController extends Controller
     public function manuals_child($param) {
         return view('frontend.pages.manuals',compact('param'));
     }
+
+     public function test() {
+        return view('frontend.pages.test');
+    }
 }

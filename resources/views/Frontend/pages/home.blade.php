@@ -5,34 +5,31 @@
 @endsection
 
 @section('content')
-    <section id="main-nav" class="section bg-color-grey border-0 py-0 m-0" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 45, 'stickySetTop': '-45px', 'stickyChangeLogo': true}">
+    <nav id="main-nav" class="navbar navbar-expand-lg bg-black" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 45, 'stickySetTop': '-45px', 'stickyChangeLogo': true}">
         <div class="container-fluid">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg fixed-nav" {{--style="background-color:#000; height:50px;"--}}>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Application Soft</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Air HQ Info Panel</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Guest Pass</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Organization</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">BAF Arenas</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Recruitment</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Training</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Flight Safety</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Miscellaneous</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Webmail</a></li>
-                        </ul>
-                    </div>
-                </nav>
+            <button class="navbar-toggler bg-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav {{--me-auto mb-2 mb-md-0--}}">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Application Soft</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Air HQ Info Panel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Guest Pass</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Organization</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">BAF Arenas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Recruitment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Training</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Flight Safety</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Miscellaneous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Webmail</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-
+    </nav>
     <section id="history" class="section bg-color-grey border-0 py-0 m-0" >
         <div class="container-fluid">
             <div class="row" style="padding-top:20px;">
@@ -631,8 +628,6 @@
                             </div>
                         </div>
                     </section>
-
-
                 </div>
 
             </div>
@@ -693,7 +688,7 @@
         </div>
     </section>--}}
 
-    <section id="contact" class="section bg-color-grey border-0 py-0 m-0">
+    {{--<section id="contact" class="section bg-color-grey border-0 py-0 m-0">
         <div class="container-fluid" style="background-color:#dfeaef;">
             <div class="row py-5">
                 <div class="col-md-6 col-lg-3 col-xs-12 mb-4 mb-lg-0 d-flex justify-content-center">
@@ -754,6 +749,69 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>--}}
+    <section id="contact" class="section bg-color-grey bg-3d border-0 py-0 m-0" style="background-color:#dfeaef;">
+        <div class="container-fluid" style="background-color:#dfeaef;">
+            <div class="row py-5">
+                <div class="col-md-6 col-lg-3 col-xs-12 mb-4 mb-lg-0">
+                    <div class="p-5 card">
+                        <div class="ps-lg-4 text-start">
+                            <p><b>ABOUT BAF</b></p>
+                            <ul class="list-unstyled">
+                                <li>History</li>
+                                <li>BAF Recruitment Portal</li>
+                                <li>Contact No: BAF Med Offrs</li>
+                                <li>BAF Freedom Fighters</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xs-12 mb-4 mb-lg-0">
+                    <div class="p-5 card">
+                        <div class="ps-lg-4 text-start">
+                            <p><b>IMPORTANT LINKS</b></p>
+                            <ul class="list-unstyled">
+                                <li>E-Tender</li>
+                                <li>BSMRAAU</li>
+                                <li>FSI Portal</li>
+                                <li>ATI Portal</li>
+                                <li>Officers Payslip</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xs-12 mb-4 mb-lg-0">
+                    <div class="p-5 card">
+                        <div class="ps-lg-4 text-start">
+                            <p><b>BAF PUBLICATIONS</b></p>
+                            <ul class="list-unstyled">
+                                <li>Eagle</li>
+                                <li>Bimansena</li>
+                                <li>Blue Angel</li>
+                                <li>Congo Chronicles</li>
+                                <li>CSTI e-Journal 2019</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xs-12 mb-4 mb-lg-0">
+                    <div class="p-5 card">
+                        <div class="ps-lg-4 text-start">
+                            <p><b>FOLLOW BAF</b></p>
+                            <ul class="list-unstyled">
+                                <li>Links</li>
+                                <li>Links Two</li>
+                                <li>Links Three</li>
+                                <li>Links Four</li>
+                                <li>Links Five</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat similar structure for other columns -->
             </div>
         </div>
     </section>

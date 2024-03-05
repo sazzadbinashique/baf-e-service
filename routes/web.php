@@ -23,6 +23,9 @@ Route::group(['name' => 'frontend.'], function () {
     Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
     Route::get('/coming-soon', [FrontendController::class, 'comingSoon'])->name('coming-soon');
 
+    // test
+    Route::get('/test', [FrontendController::class, 'test'])->name('test');
+
     //manuals-tree
     Route::get('/manuals_child/{param}', [FrontendController::class, 'manuals_child'])->name('manuals_child');
 });
