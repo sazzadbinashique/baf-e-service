@@ -66,10 +66,10 @@
 
             if (scroll >= 120) {
                 $("#main-nav").addClass("fixed-nav");
-                console.log('scrolling')
+                $("#main-nav").removeClass("bg-black");
             } else {
                 $("#main-nav").removeClass("fixed-nav");
-                console.log('not scrolling')
+                $("#main-nav").addClass("bg-black");
             }
         });
 

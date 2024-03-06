@@ -234,13 +234,14 @@
     min-height: 50px !important;
 }
 .navbar li a:hover{
-    background-color: #e3d9d9;
+    background-color: #ff7f0f;
 }
 #main-nav.fixed-nav {
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 9999;
+    background-color: navy;
 }
 #main-nav .navbar-nav .nav-link {
     text-transform: capitalize;
@@ -252,8 +253,8 @@
 #main-nav .navbar-collapse li a {
     font-weight: bold;
 }
-.navbar-nav > li > a:hover, .navbar-nav > li:hover > a, .navbar-nav > li > a:focus{
-    background-color: #d9cfcf !important;
+#main-nav .navbar-nav > li > a:hover, .navbar-nav > li:hover > a, .navbar-nav > li > a:focus{
+    background-color: #ff7f0f !important;
 }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
@@ -264,7 +265,10 @@
     transition: all 0.3s;
     border-radius: 2px;
 }
-
+navbar a:hover {
+    color: #ff7f0f;
+    text-decoration: none;
+}
 .navbar-nav .nav-item {
     margin: 5px;
 }
@@ -280,37 +284,26 @@
         margin: 2px;
     }
     #main-nav .navbar-nav .nav-link {
-        /*font-size: 0.7rem;*/
         text-decoration: none;
         transition: color 0.3s ease;
         color: #fff;
-        /*font-weight: 400;*/
+
     }
 }
 
 
 /* Custom CSS for 3D effect */
 .card {
-    /*transition: all 0.3s ease;
-    transition: all 0.5s linear;
-    transform-style: preserve-3d;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);*/
+
     transition: all 0.5s linear;
     background-color: navy;
     color: #ffffff;
-    /*border-radius: 10px;*/
 }
-/*.card:hover {
-    transform: rotateY(10deg) rotateX(10deg);
-}*/
+
 .card:hover {
     transform: scale(1.1);
 }
-/*.bg-3d {
-    background: linear-gradient(45deg, #dfeaef 50%, #b3e0e9 50%) !important;
-    background-size: 400% 400%;
-    animation: gradient-animation 4s infinite alternate;
-}*/
+
 @keyframes gradient-animation {
     0% {
         background-position: 0% 50%;
