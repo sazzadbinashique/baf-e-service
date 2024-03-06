@@ -398,10 +398,10 @@
             </div>--}}
             <div class="row">
                 <div class="col-sm-9 col-md-9 col-xs-9" style="margin-top:8px;">
-                    <section>
+                    <section class="">
                         <div class="row mb-2">
-                            <div class="col-sm-6 col-md-6 col-xs-12 mb-2">
-                                <div class="single-row-event">
+                            <div class="col-sm-6 col-md-6 col-xs-12 mb-2 ">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -409,7 +409,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-xs-12">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Airmen’s Personnel Management Information System(APMIS)</span>
@@ -419,7 +419,7 @@
                         </div>
                         <div class="row mb-2">
                             <div class="col-sm-6 col-md-6 col-xs-12 mb-2">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>BAF Shaheen School & College Data Entry(BSSCDE)</span>
@@ -427,7 +427,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-xs-12">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Officers’ Personnel Management Information System(OPMIS). Management Information System(OPMIS)</span>
@@ -437,7 +437,7 @@
                         </div>
                         <div class="row mb-2">
                             <div class="col-sm-6 col-md-6 col-xs-12 mb-2">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Aircraft Maintenance Information System(AMIS) Management Information System(OPMIS)</span>
@@ -445,7 +445,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-xs-12">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Management Information System(OPMIS) Information System (PMIS)</span>
@@ -455,7 +455,7 @@
                         </div>
                         <div class="row mb-2">
                             <div class="col-sm-6 col-md-6 col-xs-12 mb-2">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -463,7 +463,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-xs-12">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Management Information System(OPMIS) Information System (PMIS)</span>
@@ -473,7 +473,7 @@
                         </div>
                         <div class="row mb-2">
                             <div class="col-sm-6 col-md-6 col-xs-12 mb-2">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -481,7 +481,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-xs-12">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -491,7 +491,7 @@
                         </div>
                         <div class="row mb-2">
                             <div class="col-sm-6 col-md-6 col-xs-12 mb-2">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -499,7 +499,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-xs-12">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -509,7 +509,7 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col-sm-6 col-md-6 col-xs-12 mb-2">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -517,7 +517,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-xs-12">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -527,7 +527,7 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col-sm-6 col-md-6 col-xs-12 mb-2">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -535,7 +535,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6 col-xs-12">
-                                <div class="single-row-event">
+                                <div class="single-row-event bg-white">
                                     <div class="system-info">
                                         <img src="{{asset('/assets/frontend/images/manual_img/flag.png')}}" alt="">
                                         <span>Personnel Management Information System (PMIS)</span>
@@ -753,7 +753,7 @@
         </div>
     </section>--}}
     <section id="contact" class="section bg-color-grey bg-3d border-0 py-0 m-0" style="background-color:#dfeaef;">
-        <div class="container-fluid" style="background-color:#dfeaef;">
+        <div class="container-fluid" {{--style="background-color:#dfeaef;"--}}>
             <div class="row py-5">
                 <div class="col-md-6 col-lg-3 col-xs-12 mb-4 mb-lg-0">
                     <div class="p-5 card">

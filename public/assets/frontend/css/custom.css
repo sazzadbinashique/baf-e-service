@@ -265,25 +265,25 @@
 }
 
 .navbar-nav .nav-item {
-    margin: 5px; /* Adjust margin between menu items */
+    margin: 5px;
 }
 .navbar-nav .nav-link {
-    font-size: 14px; /* Adjust font size for smaller screens */
-    color: #fff; /* Adjust font color */
+    font-size: 14px;
+    color: #fff;
     font-weight: 600;
-    transition: color 0.3s ease; /* Add transition for smooth color change */
+    transition: color 0.3s ease;
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
     .navbar-nav .nav-item {
-        margin: 2px; /* Adjust margin between menu items */
+        margin: 2px;
     }
     #main-nav .navbar-nav .nav-link {
-        font-size: 0.7rem;
+        /*font-size: 0.7rem;*/
         text-decoration: none;
         transition: color 0.3s ease;
         color: #fff;
-        font-weight: 400;
+        /*font-weight: 400;*/
     }
 }
 
@@ -298,7 +298,7 @@
     transform: rotateY(10deg) rotateX(10deg);
 }
 .bg-3d {
-    background: linear-gradient(45deg, #dfeaef 50%, #b3e0e9 50%);
+    background: linear-gradient(45deg, #dfeaef 50%, #b3e0e9 50%) !important;
     background-size: 400% 400%;
     animation: gradient-animation 4s infinite alternate;
 }
