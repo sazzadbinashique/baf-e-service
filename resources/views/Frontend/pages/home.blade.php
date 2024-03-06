@@ -597,7 +597,7 @@
                         </div>
                     </section>
 
-                    <section id="chairman_message" class="my-2">
+                    <section id="chairman_message" class="my-4">
                         <div class="card">
                             <div class="p-2 text-center" style="background: #007c7c;">
                                 <h2 style="color: white;
@@ -752,7 +752,7 @@
             </div>
         </div>
     </section>--}}
-    <section id="contact" class="section bg-color-grey bg-3d border-0 py-0 m-0" style="background-color:#dfeaef;">
+    <section id="contact" class="section bg-color-grey bg-3d border-0 py-0 m-0" style="background-color:#ffffff;">
         <div class="container-fluid" {{--style="background-color:#dfeaef;"--}}>
             <div class="row py-5">
                 <div class="col-md-6 col-lg-3 col-xs-12 mb-4 mb-lg-0">
